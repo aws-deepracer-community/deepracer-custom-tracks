@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<sdf version="1.4">
+<model name="reInvent_base">
+<link name="fullLink">
+<collision name="collision">
+<pose>0 0 0 0 0 0</pose>
+<geometry>
+<mesh>
+<uri>model://meshes/reinvent/reinvent_base_wall_field_only.dae</uri>
+</mesh>
+</geometry>
+</collision>
+<visual name="visual">
+<pose>0 0 0 0 0 0</pose>
+<geometry>
+<mesh>
+<uri>model://meshes/reinvent_vegas/reinvent_low_noline.dae</uri>
+</mesh>
+</geometry>
+</visual>
+</link>
+<link name="building_city_01">
+<collision name="collision">
+<pose>0 0 0 0 0 0</pose>
+<geometry>
+<mesh>
+<uri>model://meshes/Vegas_track/Re_Invent_track_building_city_01.dae</uri>
+</mesh>
+</geometry>
+</collision>
+<visual name="visual">
+<pose>0 0 0 0 0 0</pose>
+<geometry>
+<mesh>
+<uri>model://meshes/Vegas_track/Re_Invent_track_building_city_01.dae</uri>
+</mesh>
+</geometry>
+</visual>
+</link>
+<link name="building_city_02">
+<collision name="collision">
+<pose>0 0 0 0 0 0</pose>
+<geometry>
+<mesh>
+<uri>model://meshes/Vegas_track/Re_Invent_track_building_city_02.dae</uri>
+</mesh>
+</geometry>
+</collision>
+<visual name="visual">
+<pose>0 0 0 0 0 0</pose>
+<geometry>
+<mesh>
+<uri>model://meshes/Vegas_track/Re_Invent_track_building_city_02.dae</uri>
+</mesh>
+</geometry>
+</visual>
+</link>
+<static>1</static>
+</model>
+</sdf>
