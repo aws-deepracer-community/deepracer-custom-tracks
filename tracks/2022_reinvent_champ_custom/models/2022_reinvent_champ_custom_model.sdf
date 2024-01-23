@@ -6,7 +6,7 @@
 <pose>0 0 0 0 0 0</pose>
 <geometry>
 <mesh>
-<uri>model://meshes/2022_reinvent_champ_advanced/2022_reinvent_champ_collision.dae</uri>
+<uri>model://meshes/2022_reinvent_champ_custom/2022_reinvent_champ_collision.dae</uri>
 </mesh>
 </geometry>
 </collision>
@@ -14,7 +14,7 @@
 <pose>0 0 0 0 0 0</pose>
 <geometry>
 <mesh>
-<uri>model://meshes/2022_reinvent_champ_advanced/core.dae</uri>
+<uri>model://meshes/2022_reinvent_champ_custom/core.dae</uri>
 </mesh>
 </geometry>
 </visual>
@@ -24,7 +24,7 @@
 <pose>0 0 0 0 0 0</pose>
 <geometry>
 <mesh>
-<uri>model://meshes/2022_reinvent_champ_advanced/background.dae</uri>
+<uri>model://meshes/2022_reinvent_champ_custom/background.dae</uri>
 </mesh>
 </geometry>
 </visual>
@@ -34,7 +34,7 @@
 <pose>0 0 0 0 0 0</pose>
 <geometry>
 <mesh>
-<uri>model://meshes/2022_reinvent_champ_advanced/il.dae</uri>
+<uri>model://meshes/2022_reinvent_champ_custom/il.dae</uri>
 </mesh>
 </geometry>
 </visual>
@@ -44,7 +44,7 @@
 <pose>0 0 0 0 0 0</pose>
 <geometry>
 <mesh>
-<uri>model://meshes/2022_reinvent_champ_advanced/ol.dae</uri>
+<uri>model://meshes/2022_reinvent_champ_custom/ol.dae</uri>
 </mesh>
 </geometry>
 </visual>
@@ -54,7 +54,7 @@
 <pose>0 0 0 0 0 0</pose>
 <geometry>
 <mesh>
-<uri>model://meshes/2022_reinvent_champ_advanced/cl.dae</uri>
+<uri>model://meshes/2022_reinvent_champ_custom/cl.dae</uri>
 </mesh>
 </geometry>
 </visual>
