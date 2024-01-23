@@ -14,7 +14,7 @@
 <pose>0 0 0 0 0 0</pose>
 <geometry>
 <mesh>
-<uri>model://meshes/reinvent_vegas/reinvent_low_noline.dae</uri>
+<uri>model://meshes/reinvent_base_custom/reinvent_low_noline.dae</uri>
 </mesh>
 </geometry>
 </visual>

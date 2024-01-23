@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <sdf version="1.4">
-<world name="reinvent_vegas">
+<world name="reinvent_base_custom">
 
   <scene>
     <ambient>0.5 0.5 0.5 1.0</ambient>
@@ -35,7 +35,7 @@
 
 
   <include>
-    <uri>model://models/reinvent_vegas</uri>
+    <uri>model://models/reinvent_base_custom</uri>
     <pose>0 0 0 0 0 0</pose>
     <name>racetrack</name>
   </include>
