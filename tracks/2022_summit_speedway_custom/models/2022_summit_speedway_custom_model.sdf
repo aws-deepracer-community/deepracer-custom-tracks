@@ -6,7 +6,7 @@
 <pose>0 0 0 0 0 0</pose>
 <geometry>
 <mesh>
-<uri>model://meshes/2022_summit_speedway_advanced/2022_summit_speedway_advanced_collision.dae</uri>
+<uri>model://meshes/2022_summit_speedway_custom/2022_summit_speedway_custom_collision.dae</uri>
 </mesh>
 </geometry>
 </collision>
@@ -14,7 +14,7 @@
 <pose>0 0 0 0 0 0</pose>
 <geometry>
 <mesh>
-<uri>model://meshes/2022_summit_speedway_advanced/2022_summit_speedway_advanced.dae</uri>
+<uri>model://meshes/2022_summit_speedway_custom/2022_summit_speedway_custom.dae</uri>
 </mesh>
 </geometry>
 </visual>

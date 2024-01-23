@@ -74,7 +74,7 @@
       </spot>
     </light>    
   <include>
-    <uri>model://models/2022_summit_speedway_advanced</uri>
+    <uri>model://models/2022_summit_speedway_custom</uri>
     <pose>0 0 0 0 0 0</pose>
     <name>racetrack</name>
   </include>
