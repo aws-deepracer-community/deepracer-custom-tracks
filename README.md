@@ -2,7 +2,7 @@
 
 This repository contains custom tracks for AWS DeepRacer. It's purpose is to be an extension to the default tracks in the [DeepRacer Simapp](https://github.com/aws-deepracer-community/deepracer-simapp), which contains the tracks that are also available in the AWS DeepRacer Console. See the [Race Data Repository's Track List](https://github.com/aws-deepracer-community/deepracer-race-data/blob/main/raw_data/tracks/README.md) for all details about the official tracks.
 
-Ttracks can be:
+Tracks can be:
 * A remix of the official tracks by adding/removing features like buildings, lights etc. - whilst still keeping the original track shape.
 * A 'cut-out' of an offical track to reduce the size.
 * A completely new track.
