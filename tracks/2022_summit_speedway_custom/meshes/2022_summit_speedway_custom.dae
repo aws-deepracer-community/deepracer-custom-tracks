@@ -40,14 +40,14 @@
     </effect>
     <effect id="wall_materialref-effect">
       <profile_COMMON>
-        <newparam sid="wall_png-surface">
+        <newparam sid="wall_jpg-surface">
           <surface type="2D">
-            <init_from>wall_png</init_from>
+            <init_from>wall_jpg</init_from>
           </surface>
         </newparam>
-        <newparam sid="wall_png-sampler">
+        <newparam sid="wall_jpg-sampler">
           <sampler2D>
-            <source>wall_png-surface</source>
+            <source>wall_jpg-surface</source>
           </sampler2D>
         </newparam>
         <technique sid="common">
@@ -56,7 +56,7 @@
               <color sid="emission">0 0 0 1</color>
             </emission>
             <diffuse>
-              <texture texture="wall_png-sampler" texcoord="wall-texcoords"/>
+              <texture texture="wall_jpg-sampler" texcoord="wall-texcoords"/>
             </diffuse>
             <index_of_refraction>
               <float sid="ior">1.45</float>
@@ -217,8 +217,8 @@
     <image id="startline_png" name="startline_png">
       <init_from>startline.png</init_from>
     </image>
-    <image id="wall_png" name="wall_png">
-      <init_from>wall.png</init_from>
+    <image id="wall_jpg" name="wall_jpg">
+      <init_from>light_wall.jpg</init_from>
     </image>
   </library_images>
   <library_materials>
