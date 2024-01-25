@@ -3,14 +3,15 @@
 <world name="reinvent_base_custom">
 
   <scene>
-    <ambient>0.5 0.5 0.5 1.0</ambient>
-    <shadows>0</shadows>
+    <ambient>0.6 0.6 0.6 1.0</ambient>
+    <shadows>1</shadows>
+    <sky />
   </scene>
 
   <include>
     <uri>model://sun</uri>
-    <pose>0.0 0.0 15.0 0 0 0</pose>
-    <cast_shadows>false</cast_shadows>
+    <pose>0.0 0.0 40.0 0 0 0</pose>
+    <cast_shadows>true</cast_shadows>
     <attenuation>
       <constant>0.5</constant>
       <linear>0.01</linear>
@@ -20,19 +21,18 @@
   </include>
 
   <light type="point" name="Light 1">
-         <pose>5.9 3.0 1.5 0 0 0</pose>
-         <diffuse>0.6 0.6 0.6 1</diffuse>
-         <specular>.1 .1 .1 1</specular>
-         <attenuation>
-                <constant>0.2</constant>
-                <linear>0.01</linear>
-                <quadratic>0.00</quadratic>
-                <range>50</range>
-         </attenuation>
-         <direction>0 0 -1</direction>
-         <cast_shadows>false</cast_shadows>
+    <pose>5.9 3.0 2.5 0 0 0</pose>
+    <diffuse>0.4 0.4 0.4 1</diffuse>
+    <specular>.1 .1 .1 1</specular>
+    <attenuation>
+          <constant>0.2</constant>
+          <linear>0.05</linear>
+          <quadratic>0.02</quadratic>
+          <range>50</range>
+    </attenuation>
+    <direction>0 0 -1</direction>
+    <cast_shadows>true</cast_shadows>
     </light>
-
 
   <include>
     <uri>model://models/reinvent_base_custom</uri>
