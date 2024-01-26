@@ -39,16 +39,6 @@
 </geometry>
 </visual>
 </link>
-<link name="racetrack_background">
-<visual name="visual">
-<pose>3 3 0 0 0 0</pose>
-<geometry>
-<mesh>
-<uri>model://meshes/2022_april_open/background.dae</uri>
-</mesh>
-</geometry>
-</visual>
-</link>
 <static>1</static>
 </model>
 </sdf>
