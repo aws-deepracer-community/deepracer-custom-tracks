@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 3.0.1</authoring_tool>
+    </contributor>
+    <created>2023-11-14T20:02:12</created>
+    <modified>2023-11-14T20:02:12</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="harambe-wall-effect">
+      <profile_COMMON>
+        <newparam sid="background_png_001-surface">
+          <surface type="2D">
+            <init_from>background_png_001</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="background_png_001-sampler">
+          <sampler2D>
+            <source>background_png_001-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="background_png_001-sampler" texcoord="Mesh-mesh-map-0"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="background_png_001" name="background_png_001">
+      <init_from>textures/background.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="harambe-wall-material" name="harambe-wall">
+      <instance_effect url="#harambe-wall-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Mesh-mesh" name="Mesh">
+      <mesh>
+        <source id="Mesh-mesh-positions">
+          <float_array id="Mesh-mesh-positions-array" count="60">-2.488585 5.208658 0 -5.208658 5.208658 0 -5.208658 -5.208658 0 5.208658 -5.208658 0 5.208658 -2.479818 0 -2.488585 5.208658 0.9144 -5.208658 5.208658 0.9144 -5.208658 -5.208658 0.9144 5.208658 -5.208658 0.9144 5.208658 -2.479818 0.9144 -2.551661 5.056258 0 -5.056258 5.056258 0 -5.056258 -5.056258 0 5.056258 -5.056258 0 5.056258 -2.542995 0 -2.551661 5.056258 0.9144 -5.056258 5.056258 0.9144 -5.056258 -5.056258 0.9144 5.056258 -5.056258 0.9144 5.056258 -2.542995 0.9144</float_array>
+          <technique_common>
+            <accessor source="#Mesh-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Mesh-mesh-normals">
+          <float_array id="Mesh-mesh-normals-array" count="45">0 1 0 -1 0 0 0 -1 0 1 0 0 0.7067039 0.7075096 0 -0.7067037 -0.7075096 0 -0.7067037 -0.7075096 0 0 0 -1 0 0 1 1.68947e-7 0 1 1.7404e-7 0 1 -6.2704e-7 0 1 5.44659e-7 0 1 -1.61772e-7 0 1 -1.31847e-7 0 1</float_array>
+          <technique_common>
+            <accessor source="#Mesh-mesh-normals-array" count="15" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Mesh-mesh-map-0">
+          <float_array id="Mesh-mesh-map-0-array" count="240">-0.1855956 0.5732684 0.9990015 0.5732684 0.9990015 1.002468 -0.1855956 0.5732684 0.9990015 1.002468 -0.1855956 1.002468 -15.59016 0.5732674 -10.93441 0.5732674 -10.93441 1.002468 -15.59016 0.5732674 -10.93441 1.002468 -15.59016 1.002467 -10.93441 0.5732674 -6.279983 0.5732684 -6.279983 1.002468 -10.93441 0.5732674 -6.279983 1.002468 -10.93441 1.002468 -6.279983 0.5732684 -5.090795 0.5732684 -5.090795 1.002468 -6.279983 0.5732684 -5.090795 1.002468 -6.279983 1.002468 -5.090795 0.5732684 -0.1855956 0.5732684 -0.1855956 1.002468 -5.090795 0.5732684 -0.1855956 1.002468 -5.090795 1.002468 0.9990015 0.07253533 0.9990015 0.5017347 -0.1879719 0.5017347 -0.1879719 0.07253533 0.9990015 0.07253533 -0.1879719 0.5017347 -10.93578 0.07253479 -10.93578 0.5017347 -15.59016 0.5017347 -15.59016 0.07253479 -10.93578 0.07253479 -15.59016 0.5017347 -6.280079 0.07253533 -6.280079 0.5017347 -10.93578 0.5017347 -10.93578 0.07253479 -6.280079 0.07253533 -10.93578 0.5017347 -5.089792 0.07253533 -5.089792 0.5017347 -6.280079 0.5017347 -6.280079 0.07253533 -5.089792 0.07253533 -6.280079 0.5017347 -0.1879719 0.07253533 -0.1879719 0.5017347 -5.089792 0.5017347 -5.089792 0.07253533 -0.1879719 0.07253533 -5.089792 0.5017347 0.9990015 0.5732684 -0.1855956 0.5732684 -0.1879719 0.5017347 -0.1879719 0.5017347 0.9990015 0.5017347 0.9990015 0.5732684 -0.1879719 0.001002073 0.9990015 0.001002073 0.9990015 0.07253533 0.9990015 0.07253533 -0.1879719 0.07253533 -0.1879719 0.001002073 -10.93441 0.5732674 -15.59016 0.5732674 -15.59016 0.5017347 -15.59016 0.5017347 -10.93578 0.5017347 -10.93441 0.5732674 -15.59016 0.001001596 -10.93578 0.001001596 -10.93578 0.07253479 -10.93578 0.07253479 -15.59016 0.07253479 -15.59016 0.001001596 -6.279983 0.5732684 -10.93441 0.5732674 -10.93578 0.5017347 -10.93578 0.5017347 -6.280079 0.5017347 -6.279983 0.5732684 -10.93578 0.001001596 -6.280079 0.001001596 -6.280079 0.07253533 -6.280079 0.07253533 -10.93578 0.07253479 -10.93578 0.001001596 -5.090795 0.5732684 -6.279983 0.5732684 -6.280079 0.5017347 -6.280079 0.5017347 -5.089792 0.5017347 -5.090795 0.5732684 -6.280079 0.001001596 -5.089792 0.001002073 -5.089792 0.07253533 -5.089792 0.07253533 -6.280079 0.07253533 -6.280079 0.001001596 -0.1855956 0.5732684 -5.090795 0.5732684 -5.089792 0.5017347 -5.089792 0.5017347 -0.1879719 0.5017347 -0.1855956 0.5732684 -5.089792 0.001002073 -0.1879719 0.001002073 -0.1879719 0.07253533 -0.1879719 0.07253533 -5.089792 0.07253533 -5.089792 0.001002073</float_array>
+          <technique_common>
+            <accessor source="#Mesh-mesh-map-0-array" count="120" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Mesh-mesh-vertices">
+          <input semantic="POSITION" source="#Mesh-mesh-positions"/>
+        </vertices>
+        <triangles material="harambe-wall-material" count="40">
+          <input semantic="VERTEX" source="#Mesh-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Mesh-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Mesh-mesh-map-0" offset="2" set="0"/>
+          <p>0 0 0 1 0 1 6 0 2 0 0 3 6 0 4 5 0 5 1 1 6 2 1 7 7 1 8 1 1 9 7 1 10 6 1 11 2 2 12 3 2 13 8 2 14 2 2 15 8 2 16 7 2 17 3 3 18 4 3 19 9 3 20 3 3 21 9 3 22 8 3 23 4 4 24 0 4 25 5 4 26 4 4 27 5 4 28 9 4 29 16 2 30 11 2 31 10 2 32 15 2 33 16 2 34 10 2 35 17 3 36 12 3 37 11 3 38 16 3 39 17 3 40 11 3 41 18 0 42 13 0 43 12 0 44 17 0 45 18 0 46 12 0 47 19 1 48 14 1 49 13 1 50 18 1 51 19 1 52 13 1 53 15 5 54 10 5 55 14 5 56 19 6 57 15 6 58 14 6 59 1 7 60 0 7 61 10 7 62 10 7 63 11 7 64 1 7 65 5 8 66 6 8 67 16 8 68 16 8 69 15 8 70 5 8 71 2 7 72 1 7 73 11 7 74 11 7 75 12 7 76 2 7 77 6 9 78 7 9 79 17 9 80 17 10 81 16 10 82 6 10 83 3 7 84 2 7 85 12 7 86 12 7 87 13 7 88 3 7 89 7 8 90 8 8 91 18 8 92 18 8 93 17 8 94 7 8 95 4 7 96 3 7 97 13 7 98 13 7 99 14 7 100 4 7 101 8 11 102 9 11 103 19 11 104 19 12 105 18 12 106 8 12 107 0 7 108 4 7 109 14 7 110 14 7 111 10 7 112 0 7 113 9 13 114 5 13 115 15 13 116 15 14 117 19 14 118 9 14 119</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="harambe-wall" name="harambe-wall" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 2.18557e-8 0 0 -4.37114e-8 0.5 0 0 0 0 1</matrix>
+        <instance_geometry url="#Mesh-mesh" name="harambe-wall">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="harambe-wall-material" target="#harambe-wall-material">
+                <bind_vertex_input semantic="Mesh-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

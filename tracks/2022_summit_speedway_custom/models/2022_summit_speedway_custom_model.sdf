@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sdf version="1.4">
+<model name="template_model">
+<link name="track">
+<collision name="collision">
+<pose>0 0 0 0 0 0</pose>
+<geometry>
+<mesh>
+<uri>model://meshes/2022_summit_speedway_custom/2022_summit_speedway_custom_collision.dae</uri>
+</mesh>
+</geometry>
+</collision>
+<visual name="visual">
+<pose>0 0 0 0 0 0</pose>
+<geometry>
+<mesh>
+<uri>model://meshes/2022_summit_speedway_custom/2022_summit_speedway_custom.dae</uri>
+</mesh>
+</geometry>
+</visual>
+</link>
+<link name="vegas_building_01">
+<visual name="visual">
+<pose>1 6 0 0 0 0</pose>
+<geometry>
+<mesh>
+<uri>model://meshes/Vegas_track/Re_Invent_track_building_city_01.dae</uri>
+</mesh>
+</geometry>
+</visual>
+</link>
+<link name="vegas_building_02">
+<visual name="visual">
+<pose>15 0 0 0 0 3.14</pose>
+<geometry>
+<mesh>
+<uri>model://meshes/Vegas_track/Re_Invent_track_building_city_02.dae</uri>
+</mesh>
+</geometry>
+</visual>
+</link>
+<static>1</static>
+</model>
+</sdf>
