@@ -10,10 +10,18 @@ else
 	echo "Please set TAG variable."
 endif
 
-.PHONY:copy
-copy:build
+.PHONY:copy-install
+copy-install:build
 ifdef TARGET
 	cp -r build/* $(TARGET)/bundle/install/deepracer_simulation_environment/share/deepracer_simulation_environment/
+else
+	echo "Please set TARGET variable."
+endif
+
+.PHONY:copy-src
+copy-src:build
+ifdef TARGET
+	cp -r build/* $(TARGET)/bundle/
 else
 	echo "Please set TARGET variable."
 endif

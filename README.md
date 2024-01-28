@@ -20,3 +20,10 @@ To use the repository run the following commands:
 1. `make image TAG=<your_robomaker_tag>` to extend the `awsdeepracercommunity/deepracer-robomaker:<your_robomaker_tag>` image. 
 
 Once built the image can be used by altering DRfC's `system.env` by using the new tag `<your_robomaker_tag>-ext`.
+
+## Other commands
+
+Two other commands are available:
+
+* `make copy-src TARGET=<your_robomaker_path>` - this will copy the files into the *source* of Robomaker, i.e from `build/` to `$TARGET/bundle`.
+* `make copy-install TARGET=<your_robomaker_path>` - this will copy the files into the *built* bundle in Robomaker, i.e from `build/` to `$TARGET/bundle/install/deepracer_simulation_environment/share/deepracer_simulation_environment/`.
