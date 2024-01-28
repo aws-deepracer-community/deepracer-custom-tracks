@@ -26,4 +26,4 @@ Once built the image can be used by altering DRfC's `system.env` by using the ne
 Two other commands are available:
 
 * `make copy-src TARGET=<your_robomaker_path>` - this will copy the files into the *source* of Robomaker, i.e from `build/` to `$TARGET/bundle`.
-* `make copy-install TARGET=<your_robomaker_path>` - this will copy the files into the *built* bundle in Robomaker, i.e from `build/` to `$TARGET/bundle/install/deepracer_simulation_environment/share/deepracer_simulation_environment/`.
+* `make copy-install TARGET=<your_robomaker_path>` - this will copy the files into the *built* bundle in Robomaker, i.e from `build/` to `$TARGET/install/deepracer_simulation_environment/share/deepracer_simulation_environment/`.

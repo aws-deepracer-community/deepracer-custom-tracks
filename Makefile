@@ -13,7 +13,7 @@ endif
 .PHONY:copy-install
 copy-install:build
 ifdef TARGET
-	cp -r build/* $(TARGET)/bundle/install/deepracer_simulation_environment/share/deepracer_simulation_environment/
+	cp -r build/* $(TARGET)/install/deepracer_simulation_environment/share/deepracer_simulation_environment/
 else
 	echo "Please set TARGET variable."
 endif
