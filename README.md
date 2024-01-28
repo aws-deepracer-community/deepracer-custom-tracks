@@ -16,9 +16,7 @@ Motivation for creating a new track can be:
 The repository works by adding its files 'on top' of an existing Robomaker/Simapp Docker Image.
 
 To use the repository run the following commands:
-1. `scripts/build.sh` to collect the relevant files into the `build/` directory.
-1. `docker build . -t awsdeepracercommunity/deepracer-robomaker:5.1.1-ext-cpu-avx2 -f scripts/Dockerfile.localext --build-arg FROM_TAG=5.1.1-cpu-avx2`
+1. `make build` to collect the relevant files into the `build/` directory.
+1. `make image TAG=<your_robomaker_tag>` to extend the `awsdeepracercommunity/deepracer-robomaker:<your_robomaker_tag>` image. 
 
-In the last command the docker image tag after `-t` is the tag of the new image (as an example, choose your tag). The part after FROM_TAG is the tag of the image that you will add the tracks to. This image should be on your system already, if not Docker will download it.
-
-Once built the image can be used by altering DRfC's `system.env` by using the new tag `5.1.1-ext-cpu-avx2`.
+Once built the image can be used by altering DRfC's `system.env` by using the new tag `<your_robomaker_tag>-ext`.
