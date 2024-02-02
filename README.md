@@ -11,6 +11,8 @@ Motivation for creating a new track can be:
 * Increased variability to reduce risk of overfitting for physical racing.
 * Creating a smaller foot-print track to allow for physical racing at home.
 
+See the [full track list](tracks/README.md) for details of the tracks.
+
 ## Using the repository
 
 The repository works by adding its files 'on top' of an existing Robomaker/Simapp Docker Image.
