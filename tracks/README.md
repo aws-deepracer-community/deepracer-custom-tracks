@@ -8,7 +8,7 @@ New tracks are tracks whose shape is new / not already included in the normal ro
 |-------------------------------------------------------------------|------------------------------------------------|--------------------|--------------| -------------------
 | <img src='./Amoeba/src/Amoeba_iconography.svg' height="100" />    | **Amoeba** ([npy](./Amoeba/routes/Amoeba.npy)) | 15.9 m / 0.95 m   | Duckworth    | Track created for physical racing practice, based on a corner part of the 2022 re:Invent track.
 | <img src='./Bean/track_iconography/Bean.png' height="100" />      | **Bean** ([npy](./Bean/routes/Bean.npy))       | 10 m / 0.95 m      |  Ernesto     | Small track created for physical racing practice
-| <img src='./Trapezoid/src/Trapezoid_iconography.svg' height="100" />      | **Trapezoid** ([npy](./Trapezoid/routes/Trapezoid.npy))       | 15.4 m / 0.76 m      |  Duckworth     | Small track created for physical racing practice, maximizing straights
+| <img src='./Trapezoid/src/Trapezoid_iconography.svg' height="100" />      | **Trapezoid** ([npy](./Trapezoid/routes/Trapezoid.npy))       | 13.0 m / 0.76 m      |  Duckworth     | Small track created for physical racing practice, maximizing straights
 
 ## Customized Tracks
 
