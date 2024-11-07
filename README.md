@@ -19,16 +19,16 @@ The repository works by adding its files 'on top' of an existing Robomaker/Simap
 
 To use the repository run the following commands:
 1. `make build` to collect the relevant files into the `build/` directory.
-1. `make image TAG=<your_robomaker_tag>` to extend the `awsdeepracercommunity/deepracer-robomaker:<your_robomaker_tag>` image. 
+1. `make image TAG=<your_simapp_tag>` to extend the `awsdeepracercommunity/deepracer-simapp:<your_simapp_tag>` image. 
 
-Once built the image can be used by altering DRfC's `system.env` by using the new tag `<your_robomaker_tag>-ext`.
+Once built the image can be used by altering DRfC's `system.env` by using the new tag `<your_simapp_tag>-ext`.
 
 ## Other commands
 
 Two other commands are available:
 
-* `make copy-src TARGET=<your_robomaker_path>` - this will copy the files into the *source* of Robomaker, i.e from `build/` to `$TARGET/bundle`.
-* `make copy-install TARGET=<your_robomaker_path>` - this will copy the files into the *built* bundle in Robomaker, i.e from `build/` to `$TARGET/install/deepracer_simulation_environment/share/deepracer_simulation_environment/`.
+* `make copy-src TARGET=<your_simapp_path>` - this will copy the files into the *source* of the Simapp, i.e from `build/` to `$TARGET/bundle`.
+* `make copy-install TARGET=<your_simapp_path>` - this will copy the files into the *built* bundle in Simapp, i.e from `build/` to `$TARGET/install/deepracer_simulation_environment/share/deepracer_simulation_environment/`.
 
 ## Contributing
 

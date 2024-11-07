@@ -2,7 +2,7 @@
 
 ## New Tracks
 
-New tracks are tracks whose shape is new / not already included in the normal robomaker images. They can be 100% new, or cut-outs of the original shapes.
+New tracks are tracks whose shape is new / not already included in the normal Simapp images. They can be 100% new, or cut-outs of the original shapes.
 
 | <div style="width:150px">Image</div>                              | Name                                           | Track Dimension    | Creator      | Description
 |-------------------------------------------------------------------|------------------------------------------------|--------------------|--------------| -------------------
