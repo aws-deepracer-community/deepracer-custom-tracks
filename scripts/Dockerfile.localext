@@ -7,7 +7,7 @@
 ARG FROM_TAG
 FROM awsdeepracercommunity/deepracer-simapp:${FROM_TAG}
 
-COPY build /opt/install/deepracer_simulation_environment/share/deepracer_simulation_environment
+COPY build /opt/simapp/deepracer_simulation_environment/share/deepracer_simulation_environment
 
 ENTRYPOINT ["/bin/bash", "-c"]
 CMD ["./run.sh run distributed_training.launch"]
