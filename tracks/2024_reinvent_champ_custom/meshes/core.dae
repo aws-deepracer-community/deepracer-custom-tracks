@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 4.0.2 commit date:2023-12-05, commit time:07:41, hash:9be62e85b727</authoring_tool>
     </contributor>
-    <created>2024-11-10T11:11:13</created>
-    <modified>2024-11-10T11:11:13</modified>
+    <created>2024-11-10T15:34:30</created>
+    <modified>2024-11-10T15:34:30</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -59,7 +59,7 @@
               <texture texture="field_png-sampler" texcoord="field-texcoords"/>
             </diffuse>
             <index_of_refraction>
-              <float sid="ior">1.0</float>
+              <float sid="ior">1</float>
             </index_of_refraction>
           </lambert>
         </technique>
@@ -86,7 +86,7 @@
               <texture texture="road_png-sampler" texcoord="road-texcoords"/>
             </diffuse>
             <index_of_refraction>
-              <float sid="ior">1.45</float>
+              <float sid="ior">1</float>
             </index_of_refraction>
           </lambert>
         </technique>
@@ -181,7 +181,7 @@
           </technique_common>
         </source>
         <source id="fieldShape-mesh_001-mesh-map-0">
-          <float_array id="fieldShape-mesh_001-mesh-map-0-array" count="12">6.167764 2.846935 -6.174064 2.846935 6.167764 -2.834784 6.167764 -2.834784 -6.174064 2.846935 -6.174064 -2.834784</float_array>
+          <float_array id="fieldShape-mesh_001-mesh-map-0-array" count="12">24.68051 22.73295 -24.68681 22.73295 24.68051 -22.7208 24.68051 -22.7208 -24.68681 22.73295 -24.68681 -22.7208</float_array>
           <technique_common>
             <accessor source="#fieldShape-mesh_001-mesh-map-0-array" count="6" stride="2">
               <param name="S" type="float"/>
@@ -258,7 +258,7 @@
         </instance_geometry>
       </node>
       <node id="field" name="field" type="NODE">
-        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <matrix sid="transform">4 0 0 0 0 8 0 0 0 0 1 0 0 0 0 1</matrix>
         <instance_geometry url="#fieldShape-mesh_001-mesh" name="field">
           <bind_material>
             <technique_common>
