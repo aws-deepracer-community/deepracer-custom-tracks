@@ -5,22 +5,22 @@
       <author>Blender User</author>
       <authoring_tool>Blender 4.0.2 commit date:2023-12-05, commit time:07:41, hash:9be62e85b727</authoring_tool>
     </contributor>
-    <created>2024-11-10T11:58:06</created>
-    <modified>2024-11-10T11:58:06</modified>
+    <created>2024-11-10T14:04:00</created>
+    <modified>2024-11-10T14:04:00</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
   <library_effects>
     <effect id="wall_materialref-effect">
       <profile_COMMON>
-        <newparam sid="colorful_png-surface">
+        <newparam sid="colorful_jpg-surface">
           <surface type="2D">
-            <init_from>colorful_png</init_from>
+            <init_from>colorful_jpg</init_from>
           </surface>
         </newparam>
-        <newparam sid="colorful_png-sampler">
+        <newparam sid="colorful_jpg-sampler">
           <sampler2D>
-            <source>colorful_png-surface</source>
+            <source>colorful_jpg-surface</source>
           </sampler2D>
         </newparam>
         <technique sid="common">
@@ -29,7 +29,7 @@
               <color sid="emission">0 0 0 1</color>
             </emission>
             <diffuse>
-              <texture texture="colorful_png-sampler" texcoord="wall-texcoords"/>
+              <texture texture="colorful_jpg-sampler" texcoord="wall-texcoords"/>
             </diffuse>
             <index_of_refraction>
               <float sid="ior">1</float>
@@ -40,7 +40,7 @@
     </effect>
   </library_effects>
   <library_images>
-    <image id="colorful_png" name="colorful_png">
+    <image id="colorful_jpg" name="colorful_jpg">
       <init_from>colorful.jpg</init_from>
     </image>
   </library_images>
