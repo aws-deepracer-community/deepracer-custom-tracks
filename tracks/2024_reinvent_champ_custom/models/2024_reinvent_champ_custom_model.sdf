@@ -19,12 +19,22 @@
 </geometry>
 </visual>
 </link>
-<link name="background">
+<link name="background_color">
 <visual name="visual">
 <pose>0 0 0 0 0 0</pose>
 <geometry>
 <mesh>
 <uri>model://meshes/2024_reinvent_champ_custom/background_color.dae</uri>
+</mesh>
+</geometry>
+</visual>
+</link>
+<link name="background">
+<visual name="visual">
+<pose>0 0 0 0 0 0</pose>
+<geometry>
+<mesh>
+<uri>model://meshes/2024_reinvent_champ_custom/background.dae</uri>
 </mesh>
 </geometry>
 </visual>
