@@ -29,7 +29,7 @@
 </geometry>
 </visual>
 </link>
-<link name="background">
+<link name="background_small">
 <visual name="visual">
 <pose>0 0 0 0 0 0</pose>
 <geometry>
