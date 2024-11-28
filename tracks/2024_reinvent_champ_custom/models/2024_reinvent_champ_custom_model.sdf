@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sdf version="1.4">
+<model name="template_model">
+<link name="track">
+<collision name="collision">
+<pose>0 0 0 0 0 0</pose>
+<geometry>
+<mesh>
+<uri>model://meshes/2024_reinvent_champ_custom/2024_reinvent_champ_custom_collision.dae</uri>
+</mesh>
+</geometry>
+</collision>
+<visual name="visual">
+<pose>0 0 0 0 0 0</pose>
+<geometry>
+<mesh>
+<uri>model://meshes/2024_reinvent_champ_custom/core.dae</uri>
+</mesh>
+</geometry>
+</visual>
+</link>
+<link name="background_color">
+<visual name="visual">
+<pose>0 0 0 0 0 0</pose>
+<geometry>
+<mesh>
+<uri>model://meshes/2024_reinvent_champ_custom/background_color.dae</uri>
+</mesh>
+</geometry>
+</visual>
+</link>
+<link name="background_small">
+<visual name="visual">
+<pose>0 0 0 0 0 0</pose>
+<geometry>
+<mesh>
+<uri>model://meshes/2024_reinvent_champ_custom/background_small.dae</uri>
+</mesh>
+</geometry>
+</visual>
+</link>
+<link name="background">
+<visual name="visual">
+<pose>0 0 0 0 0 0</pose>
+<geometry>
+<mesh>
+<uri>model://meshes/2024_reinvent_champ_custom/background.dae</uri>
+</mesh>
+</geometry>
+</visual>
+</link>
+<link name="il">
+<visual name="visual">
+<pose>0 0 0 0 0 0</pose>
+<geometry>
+<mesh>
+<uri>model://meshes/2024_reinvent_champ_custom/il.dae</uri>
+</mesh>
+</geometry>
+</visual>
+</link>
+<link name="ol">
+<visual name="visual">
+<pose>0 0 0 0 0 0</pose>
+<geometry>
+<mesh>
+<uri>model://meshes/2024_reinvent_champ_custom/ol.dae</uri>
+</mesh>
+</geometry>
+</visual>
+</link>
+<link name="cl">
+<visual name="visual">
+<pose>0 0 0 0 0 0</pose>
+<geometry>
+<mesh>
+<uri>model://meshes/2024_reinvent_champ_custom/cl.dae</uri>
+</mesh>
+</geometry>
+</visual>
+</link>
+<link name="vegas_building_01">
+<visual name="visual">
+<pose>0 0 0 0 0 0</pose>
+<geometry>
+<mesh>
+<uri>model://meshes/Vegas_track/Re_Invent_track_building_city_01.dae</uri>
+</mesh>
+</geometry>
+</visual>
+</link>
+<link name="vegas_building_02">
+<visual name="visual">
+<pose>0 0 0 0 0 0</pose>
+<geometry>
+<mesh>
+<uri>model://meshes/Vegas_track/Re_Invent_track_building_city_02.dae</uri>
+</mesh>
+</geometry>
+</visual>
+</link>
+<link name="vegas_building_03">
+<visual name="visual">
+<pose>0 0 0 0 0 0</pose>
+<geometry>
+<mesh>
+<uri>model://meshes/Vegas_track/Re_Invent_track_building_city_03.dae</uri>
+</mesh>
+</geometry>
+</visual>
+</link>
+<link name="landmark01">
+<visual name="visual">
+<pose>0 0 0 0 0 0</pose>
+<geometry>
+<mesh>
+<uri>model://meshes/Vegas_track/Re_Invent_track_landmark_01.dae</uri>
+</mesh>
+</geometry>
+</visual>
+</link>
+<link name="landmark02">
+<visual name="visual">
+<pose>0 0 0 0 0 0</pose>
+<geometry>
+<mesh>
+<uri>model://meshes/Vegas_track/Re_Invent_track_landmark_02.dae</uri>
+</mesh>
+</geometry>
+</visual>
+</link>
+<link name="landmark03">
+<visual name="visual">
+<pose>0 0 0 0 0 0</pose>
+<geometry>
+<mesh>
+<uri>model://meshes/Vegas_track/Re_Invent_track_landmark_03.dae</uri>
+</mesh>
+</geometry>
+</visual>
+</link>
+<link name="landmark04">
+<visual name="visual">
+<pose>0 0 0 0 0 0</pose>
+<geometry>
+<mesh>
+<uri>model://meshes/Vegas_track/Re_Invent_track_landmark_04.dae</uri>
+</mesh>
+</geometry>
+</visual>
+</link>
+<link name="landmark05">
+<visual name="visual">
+<pose>0 0 0 0 0 0</pose>
+<geometry>
+<mesh>
+<uri>model://meshes/Vegas_track/Re_Invent_track_landmark_05.dae</uri>
+</mesh>
+</geometry>
+</visual>
+</link>
+<link name="landmark06">
+<visual name="visual">
+<pose>0 0 0 0 0 0</pose>
+<geometry>
+<mesh>
+<uri>model://meshes/Vegas_track/Re_Invent_track_landmark_06.dae</uri>
+</mesh>
+</geometry>
+</visual>
+</link>
+<link name="landmark07">
+<visual name="visual">
+<pose>0 0 0 0 0 0</pose>
+<geometry>
+<mesh>
+<uri>model://meshes/Vegas_track/Re_Invent_track_landmark_07.dae</uri>
+</mesh>
+</geometry>
+</visual>
+</link>
+<link name="signs">
+<visual name="visual">
+<pose>0 0 0 0 0 0</pose>
+<geometry>
+<mesh>
+<uri>model://meshes/Vegas_track/Re_Invent_track_signs.dae</uri>
+</mesh>
+</geometry>
+</visual>
+</link>
+<static>1</static>
+</model>
+</sdf>
